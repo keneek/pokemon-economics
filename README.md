@@ -5,11 +5,14 @@ An interactive educational app that teaches supply and demand economics through 
 ## Features
 
 - **Learning Mode**: Understand how supply and demand affect Pokemon card prices
-- **Trading Game Mode**: Two-player game where you build the best portfolio
-- **Interactive Charts**: Real-time price visualization with supply/demand curves
-- **Market Events**: Simulate market changes and see price impacts
-- **Pokemon Evolution**: Combine Pokemon to unlock rare evolutions
-- **Customizable Stats**: Edit supply and demand values to experiment
+- **Trading Game Mode**: Competitive two-player economy simulation game
+- **Interactive Charts**: Real-time price visualization with dynamic scaling and logarithmic views
+- **Market Events**: Simulate supply and demand shocks to see price impacts
+- **Complete Evolution System**: Every Pokemon can evolve - some have three-stage evolution chains!
+- **Pokedex**: Track your Pokemon collection and evolution possibilities
+- **Customizable Game Settings**: Configure starting money and actions per turn
+- **Direct Trading Interface**: Buy, sell, and evolve directly from the Pokemon selection menu
+- **Market Analysis**: Visual indicators when markets are over/underpriced vs equilibrium
 
 ## Getting Started
 
@@ -62,16 +65,52 @@ npm run preview
 ### Learning Mode
 
 - Select different Pokemon to see their market dynamics
-- Adjust supply and demand sliders to see price changes
-- Learn about equilibrium points where buyers and sellers agree
+- Use "Edit Market" mode to adjust initial stock quantities and demand levels
+- Observe how the supply/demand curves create market prices
+- Learn about equilibrium points and market efficiency
 
 ### Trading Game Mode
 
-1. Each player starts with $1000
-2. Take turns buying and selling Pokemon (3 actions per turn)
-3. Watch market prices change as stock depletes
-4. Evolve Pokemon by combining 3 of the same type
-5. Winner has the highest portfolio value!
+1. Configure game settings (starting money, actions per turn)
+2. Each player takes turns with limited actions
+3. Buy low, sell high to maximize profits
+4. Collect 3+ of any Pokemon to unlock evolution (marked with ✨)
+5. Build powerful evolution chains (e.g., Charmander → Charmeleon → Charizard)
+6. Use the Pokedex to track your collection and plan strategies
+7. Winner has the highest portfolio value when game ends!
+
+## Pokemon Evolution Chains
+
+Every Pokemon in the game can evolve! Some examples:
+
+- **Fire**: Charmander → Charmeleon → Charizard 🔥
+- **Electric**: Pikachu → Raichu → Alolan Raichu ⚡
+- **Water**: Magikarp → Gyarados → Mega Gyarados 🐟
+- **Psychic**: Abra → Kadabra → Alakazam 🔮
+- **Grass**: Sprigatito → Floragato → Meowscarada 🌿
+- **And many more!**
+
+## Game Features
+
+### Dynamic Pricing
+
+- Prices calculated using rarity × demand formula
+- Real-time market adjustments as players trade
+- Visual warnings when prices diverge from equilibrium
+
+### Market Visualization
+
+- Supply and demand curves update in real-time
+- Dynamic chart scaling (including logarithmic for extreme ranges)
+- Current market position clearly marked
+- Theoretical equilibrium points shown
+
+### Player Tools
+
+- **Pokedex**: View owned Pokemon and evolution possibilities
+- **Quick Actions**: Buy/Sell/Evolve buttons in Pokemon list
+- **Market Events**: Random supply/demand shocks
+- **Portfolio Tracking**: Real-time net worth calculations
 
 ## Technologies Used
 
